@@ -42,9 +42,7 @@ services:
     volumes:
       - ~/.rocketpool/override/json_exporter.yml:/config.yml:ro
     networks:
-      net:
-networks:
-  net:
+      - net
 EOF
 ```
 
